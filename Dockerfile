@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY target/webappp.jar webappp.jar
-CMD ["java","-jar","webappp.jar"]
+COPY target/dockerauto.jar dockerauto.jar
+CMD ["java","-jar","dockerauto.jar"]
