@@ -12,5 +12,11 @@ public class Controller {
 	}
 	
 	
+	@GetMapping(value="getPetName")
+	public String getPetName() {
+		return "hello mr kaipulla ";
+	}
+	
+	
 
 }
